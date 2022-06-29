@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IT_Inventory_Mobileapp.Views.AboutPage"
+             Title="Kezdőlap">
+
+
+    <ContentPage.Resources>
+
+        <ResourceDictionary>
+            <Color x:Key="Accent">#ED1B24</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <BoxView VerticalOptions="FillAndExpand" HorizontalOptions="Fill" WidthRequest="1" BackgroundColor="#A40000 " Grid.Row="0"/>
+        <StackLayout BackgroundColor="#ED1B24" VerticalOptions="FillAndExpand" HorizontalOptions="Fill" Grid.Row="1">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                <ContentView Padding="0,20,0,20" VerticalOptions="FillAndExpand">
+                    <Image Source="nissin_image.jpg" VerticalOptions="Center" HeightRequest="64" />
+                </ContentView>
+            </StackLayout>
+        </StackLayout>
+        <ScrollView Grid.Row="2">
+            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+                <Label Text="Köszöntünk a Nissin Foods IT Leltár alkalmazásban" FontSize="Title" HorizontalTextAlignment="Center" />
+                <Label Text="Leltárazott eszközök száma:" HorizontalOptions="Center" FontSize="Medium" Padding="30,30,30,0"/>
+                <Label x:Name="lbCount" Text="ossz" HorizontalOptions="Center" FontSize="Medium" />
+            </StackLayout>
+        </ScrollView>
+        <ScrollView Grid.Row="3">
+            <StackLayout Orientation="Vertical" Padding="30,60,30,24" Spacing="10">
+                <Button x:Name="btnNewItem" Text="Új eszköz felvétele" Clicked="btnNewItem_Clicked" />
+                <Button x:Name="btnExit" Text="Kilépés" Clicked="btnExit_Clicked" />
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IT_Inventory_Mobileapp.Views.ItemDetailPage"
+             Title="Leltár elem részletek">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="tbiEdit" IconImageSource="icon_edit.png" Text="Edit" Clicked="tbiEdit_Clicked" />
+        <ToolbarItem x:Name="tbiDelete" IconImageSource="icon_delete.png" Text="Delete" Clicked="tbiDelete_Clicked" />
+    </ContentPage.ToolbarItems>
+
+
+    <ScrollView>
+        <StackLayout Spacing="10" Padding="15">
+            <Label x:Name="lbNid" Padding="100,0,0,0" FontSize="Medium"/>
+            <Label Text="Név" FontSize="Small" />
+            <Label x:Name="lbNev" Padding="100,0,0,0" FontSize="Medium"/>
+            <Label Text="Hely" FontSize="Small" />
+            <Label x:Name="lbHely" Padding="100,0,0,0" FontSize="Medium"/>
+            <Label Text="Felhasználó" FontSize="Small" />
+            <Label x:Name="lbFelhasznalo" Padding="100,0,0,0" FontSize="Medium"/>
+            <Label Text="Csoport" FontSize="Small" />
+            <Label x:Name="lbCsoport" Padding="100,0,0,0" FontSize="Medium"/>
+            <Label Text="Státusz" FontSize="Small" />
+            <Label x:Name="lbStatusz" Padding="100,0,0,0" FontSize="Medium"/>
+            <Label Text="Tipus" FontSize="Small" />
+            <Label x:Name="lbTipus" Padding="100,0,0,0" FontSize="Medium"/>
+            <Label Text="Gyarto" FontSize="Small" />
+            <Label x:Name="lbGyarto" Padding="100,0,0,0" FontSize="Medium"/>
+            <Label Text="Modell" FontSize="Small" />
+            <Label x:Name="lbModell" Padding="100,0,0,0"  FontSize="Medium"/>
+            <Label Text="Sorozatszám" FontSize="Small" />
+            <Label x:Name="lbSorozatszam" Padding="100,0,0,0" FontSize="Medium"/>
+            <Label Text="Leltáriszám" FontSize="Small" />
+            <Label x:Name="lbLelatariszam" Padding="100,0,0,0" FontSize="Medium"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

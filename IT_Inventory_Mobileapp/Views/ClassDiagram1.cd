@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="IT_Inventory_Mobileapp.Models.Item">
+    <Position X="5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgQAAAAAAECAAgAAAAAAQQAAAAAAAAAgEIAAAAQA=</HashCode>
+      <FileName>Models\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IT_Inventory_Mobileapp.Views.AboutPage">
+    <Position X="2.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAgAAAAAAAAAAAAAgAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Views\AboutPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IT_Inventory_Mobileapp.Views.ItemDetailPage">
+    <Position X="7" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Views\ItemDetailPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IT_Inventory_Mobileapp.Views.ItemsPage">
+    <Position X="9.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAwAgAAAAAIAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Views\ItemsPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IT_Inventory_Mobileapp.Views.LekerdezesHelyPage">
+    <Position X="2.75" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAIABAAQAAA=</HashCode>
+      <FileName>Views\LekerdezesHelyPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IT_Inventory_Mobileapp.Views.LekerdezesIDPage">
+    <Position X="5" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAIAgAAAABAAAEAAAAEAAAAAAAA=</HashCode>
+      <FileName>Views\LekerdezesIDPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IT_Inventory_Mobileapp.Views.LekerdezesLeltariszamPage">
+    <Position X="8" Y="3.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAgAAAAAIAAAAAABAAAEAAAAAEAAAAAAA=</HashCode>
+      <FileName>Views\LekerdezesLeltariszamPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IT_Inventory_Mobileapp.Views.LekerdezesPage">
+    <Position X="11" Y="3" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAABIAAAAABAIAEAAABAABgAAAAA=</HashCode>
+      <FileName>Views\LekerdezesPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IT_Inventory_Mobileapp.Views.LekerdezesSorozatSzam">
+    <Position X="2.75" Y="6.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAIACAAAABAAAEAAAAAAQAAAAAA=</HashCode>
+      <FileName>Views\LekerdezesSorozatSzam.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IT_Inventory_Mobileapp.Views.NewItemPage">
+    <Position X="5.5" Y="6.25" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAEASAAAAAABQAAAAAAAAAAADBIAgAAACAABAAAAAA=</HashCode>
+      <FileName>Views\NewItemPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IT_Inventory_Mobileapp.Views.SearchPage">
+    <Position X="8.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAoAAAAAAAAAAAAAAEAABAAAgAA=</HashCode>
+      <FileName>Views\SearchPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IT_Inventory_Mobileapp.Views.UpdateItemPage">
+    <Position X="10.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\UpdateItemPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

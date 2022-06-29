@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IT_Inventory_Mobileapp.Views.NewItemPage"             
+             Title="Új eszköz hozzáadás">
+
+    <ScrollView>
+        <StackLayout Spacing="3" Padding="15">
+
+            <Label Text="Név" FontSize="Small"  />
+            <Entry x:Name="entNev"/>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="40"/>
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="300*"/>
+                    <ColumnDefinition Width="150"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Hely" FontSize="Small" Grid.Row="0" Grid.Column="0" />
+                <Entry x:Name="entHely" Grid.Row="1" Grid.Column="0"/>
+                <Picker x:Name="piHelyek" Title="Válassz helyet" 
+                        SelectedIndexChanged="piHelyek_SelectedIndexChanged" Grid.Row="1" Grid.Column="1"/>
+
+                <Label Text="Felhasználó" FontSize="Small" Grid.Row="2" Grid.Column="0" />
+                <Entry x:Name="entFelhasznalo" Grid.Row="3" Grid.Column="0"/>
+                <Picker x:Name="piFelhasznalo" Title="Válassz felhasználót" 
+                        SelectedIndexChanged="piFelhasznalo_SelectedIndexChanged" Grid.Row="3" Grid.Column="1"/>
+
+                <Label Text="Csoport" FontSize="Small" Grid.Row="4" Grid.Column="0" />
+                <Entry x:Name="entCsoport" Grid.Row="5" Grid.Column="0"/>
+                <Picker x:Name="piCsoport" Title="Válassz csoportot" 
+                        SelectedIndexChanged="piCsoport_SelectedIndexChanged" Grid.Row="5" Grid.Column="1"/>
+
+                <Label Text="Státusz" FontSize="Small" Grid.Row="6" Grid.Column="0" />
+                <Entry x:Name="entStatus" Grid.Row="7" Grid.Column="0"/>
+                <Picker x:Name="piStatus" Title="Válassz státuszt" 
+                        SelectedIndexChanged="piStatus_SelectedIndexChanged" Grid.Row="7" Grid.Column="1"/>
+
+                <Label Text="Tipus" FontSize="Small" Grid.Row="8" Grid.Column="0" />
+                <Entry x:Name="entTipus" Grid.Row="9" Grid.Column="0"/>
+                <Picker x:Name="piTipus" Title="Válassz típust" 
+                       SelectedIndexChanged="piTipus_SelectedIndexChanged" Grid.Row="9" Grid.Column="1"/>
+
+                <Label Text="Gyártó" FontSize="Small" Grid.Row="10" Grid.Column="0" />
+                <Entry x:Name="entGyarto" Grid.Row="11" Grid.Column="0"/>
+                <Picker x:Name="piGyarto" Title="Válassz gyártót" 
+                        SelectedIndexChanged="piGyarto_SelectedIndexChanged" Grid.Row="11" Grid.Column="1"/>
+
+                <Label Text="Modell" FontSize="Small" Grid.Row="12" Grid.Column="0" />
+                <Entry x:Name="entModell" Grid.Row="13" Grid.Column="0"/>
+                <Picker x:Name="piModell" Title="Válassz modellt" 
+                        SelectedIndexChanged="piModell_SelectedIndexChanged" Grid.Row="13" Grid.Column="1"/>
+            </Grid>
+
+            <Label Text="Sorozatszám" FontSize="Small" />
+            <Entry x:Name="entSorozatszam"/>
+
+            <Label Text="Leltáriszám" FontSize="Small" />
+            <Entry x:Name="entLeltariszam"/>
+
+            <Button x:Name="btnSave" Text="Mentés" Clicked="btnSave_Clicked" />
+            <Button x:Name="btnCancel" Text="Mégse" Clicked="btnCancel_Clicked"/>
+
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

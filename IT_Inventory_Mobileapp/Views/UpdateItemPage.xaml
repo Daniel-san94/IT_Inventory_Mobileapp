@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IT_Inventory_Mobileapp.Views.UpdateItemPage"
+             Title="Leltár elem szerkesztés">
+
+
+    <ScrollView>
+        <StackLayout Spacing="3" Padding="15">
+            <Label x:Name="lblNid" />
+            <Label Text="Név" FontSize="Small" />
+            <Entry x:Name="entNev"/>
+            <Label Text="Hely" FontSize="Small" />
+            <Entry x:Name="entHely"/>
+
+            <Label Text="Felhasználó" FontSize="Small" />
+            <Entry x:Name="entFelhasznalo"/>
+
+            <Label Text="Csoport" FontSize="Small" />
+            <Entry x:Name="entCsoport"/>
+
+            <Label Text="Státusz" FontSize="Small" />
+            <Entry x:Name="entStatus"/>
+
+            <Label Text="Tipus" FontSize="Small" />
+            <Entry x:Name="entTipus"/>
+
+            <Label Text="Gyártó" FontSize="Small" />
+            <Entry x:Name="enGyarto"/>
+
+            <Label Text="Modell" FontSize="Small" />
+            <Entry x:Name="entModell"/>
+
+            <Label Text="Sorozatszám" FontSize="Small" />
+            <Entry x:Name="entSorozatszam"/>
+
+            <Label Text="Leltáriszám" FontSize="Small" />
+            <Entry x:Name="entLeltariszam"/>
+            <Button x:Name="btnSave" Text="Mentés" Clicked="btnSave_Clicked" />
+
+        </StackLayout>
+    </ScrollView>
+
+
+
+</ContentPage>
